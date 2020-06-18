@@ -10,3 +10,7 @@ plt.plot(x,y)
 x1 = np.linspace(0,100,100)
 y1 = x1**2
 plt.plot(x1,y1)
+
+x2 = np.linspace(0,100,100)
+y2 = 100*x2
+plt.plot(x2,y2)
