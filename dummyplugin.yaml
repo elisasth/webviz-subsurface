@@ -1,0 +1,13 @@
+title: X-Ray Diffraction
+
+pages:
+
+  - title: Front page
+    content:
+      - BannerImage:
+          image: ./content/Xraybanner.png
+          title: X-Ray Differaction Data
+      - Markdown:
+          markdown_file: ./content/front_page.md
+  
+  - title: Data Plot
