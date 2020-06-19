@@ -17,6 +17,7 @@ setup(
     entry_points={
         "webviz_config_plugins": [
             "ParameterDistribution = webviz_subsurface.plugins:ParameterDistribution",
+            "MinimalPlugin = webviz_subsurface.plugins:MinimalPlugin",
             "ParameterCorrelation = webviz_subsurface.plugins:ParameterCorrelation",
             "ParameterResponseCorrelation = "
             + "webviz_subsurface.plugins:ParameterResponseCorrelation",

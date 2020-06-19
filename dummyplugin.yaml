@@ -11,3 +11,6 @@ pages:
           markdown_file: ./content/front_page.md
   
   - title: Data Plot
+    content:
+      - MinimalPlugin:
+          title: My special title

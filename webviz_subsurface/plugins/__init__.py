@@ -24,6 +24,7 @@ pages:
 """
 
 from ._parameter_distribution import ParameterDistribution
+from ._minimal_plugin import MinimalPlugin
 from ._parameter_correlation import ParameterCorrelation
 from ._parameter_response_correlation import ParameterResponseCorrelation
 from ._disk_usage import DiskUsage
@@ -53,6 +54,7 @@ from ._rft_plotter.rft_plotter import RftPlotter
 
 __all__ = [
     "ParameterDistribution",
+    "MinimalPlugin",
     "ParameterCorrelation",
     "DiskUsage",
     "SubsurfaceMap",
